@@ -87,7 +87,7 @@ def main():
     all_pgn_strings = []
     with open("lichess_db_standard_rated_2013-01.pgn") as pgn_file:
         game_count = 0
-        # We evalueate 50.000 games
+        # We evalueate 30.000 games
         n = 30000
         while game_count < n:
             game = chess.pgn.read_game(pgn_file)
