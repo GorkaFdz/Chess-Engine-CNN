@@ -101,7 +101,7 @@ class ChessPositionEvaluator:
             self.engine.quit()
 
 # Usage example
-model_path = "engine_db_v0.keras"
+model_path = "engine_db.keras"
 engine_path = "/usr/games/stockfish"
 evaluator = ChessPositionEvaluator(model_path, engine_path)
 
