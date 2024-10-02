@@ -1,0 +1,8 @@
+/stockfish-ubuntu-x86-64-avx2
+.env
+engine_db_0.keras
+engine_db_v0.keras
+train.ipynb
+game.py
+lichess_db_standard_rated_2013-01.pgn
+*.npz
