@@ -277,6 +277,6 @@ def main(BOARD, agent, agent_color):
     pygame.quit()
 
 
-model = load_model("engine_db_v0.keras")
+model = load_model("engine_db.keras")
 transposition_table = {}
 main(b,get_best_move,False)
