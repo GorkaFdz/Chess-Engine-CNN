@@ -18,4 +18,8 @@ You can play against engine by directly running the `game_display.py` script. Th
 
 ## Testing the engine on lichess
 
-I created a bot account for the engine using ![the official repository from lichess](https://github.com/lichess-bot-devs/lichess-bot). The engine performed well against bots rated around 1000 Elo but struggled against stronger opponents. Since the time required to compute each move increases exponentially with depth, the search depth was set to 3, resulting in an average of 90 seconds per move. As a result, the engine primarily played classical games (30+15 time control).
+I created a bot account, named ![grkbot](https://lichess.org/@/grkbot), for the engine using ![the official repository from lichess](https://github.com/lichess-bot-devs/lichess-bot). The engine performed well against bots rated around 1000 Elo but struggled against stronger opponents. Since the time required to compute each move increases exponentially with depth, the search depth was set to 3, resulting in an average of 90 seconds per move. As a result, the engine primarily played classical games (30+15 time control).
+
+## Conclusion
+
+Overall, I am pleased with how the project turned out. The engine performs well at lower levels and showcases the potential of using a Convolutional Neural Network to evaluate chess positions. However, there is still room for improvement, particularly in optimizing the model's speed and improving its performance against higher-rated engines. Future enhancements could involve refining the evaluation function and experimenting with different data preprocessing techniques, such as incorporating information about controlled squares or attacked pieces for each side. Despite these opportunities for growth, I am happy with the current state of the engine and its ability to compete at the 1000 Elo level on Lichess.
