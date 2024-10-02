@@ -145,7 +145,7 @@ def main():
     print(f"Test MAE: {test_mae}")
     print(f"Test loss: {test_loss}")
 
-    model.save("engine_db_0.keras")
+    model.save("engine_db.keras")
 
     print("\nEvaluating model on test set:")
     evaluate_model(model, x_test, y_test)
