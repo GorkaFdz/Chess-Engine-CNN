@@ -14,7 +14,7 @@ If you want to test the engine for different positions, it can be done modifying
 
 ## Playing the engine
 
-You can play against engine by directly running the `game_display.py` script. This is a simple pygame game which shows the board and can be played by clicking on the pieces. The code is a modified version of the implementation found in [this article](https://medium.com/dev-genius/simple-interactive-chess-gui-in-python-c6d6569f7b6c). In order to play a move, the AI finds the best move using a negamax algorithm and the evaluations from the network except for the openings for which it uses an opening book. The model's search depth for moves can be adjusted, with a default depth of 3.
+You can play against engine by directly running the `game_display.py` script. This is a simple pygame game which shows the board and can be played by clicking on the pieces. The code is a modified version of the implementation found in [this article](https://medium.com/dev-genius/simple-interactive-chess-gui-in-python-c6d6569f7b6c). In order to play a move, the AI finds the best move using a negamax algorithm and the evaluations from the network except for the openings for which it uses an opening book ([found here](https://sourceforge.net/projects/codekiddy-chess/files/Books/Polyglot%20books/Update1/)). The model's search depth for moves can be adjusted, with a default depth of 3.
 
 ## Testing the engine on lichess
 
